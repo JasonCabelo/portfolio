@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+:root {
+  --text-color: #0f172a;
+  --bg-color: #f1f5f9;
+  --nav-bg: #e2e8f0;
+  --border-color: #cbd5e1;
+  --link-active-color: #0ea5e9;
+  --accent: #0ea5e9;
+}
+
+[data-theme='dark'] {
+  --text-color: #e2e8f0;
+  --bg-color: #0f172a;
+  --nav-bg: #1e293b;
+  --border-color: #334155;
+  --link-active-color: #67e8f9;
+  --accent: #67e8f9;
+}
+
+body,
+#root {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Fira Code', monospace;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent);
+  text-shadow: 0 0 5px var(--accent);
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.btn-accent {
+  padding: 0.4rem 1rem;
+  border: 2px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  font-weight: bold;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: var(--accent);
+  color: var(--bg-color);
+  box-shadow: 0 0 8px var(--accent);
+}
+.blinking-cursor {
+  display: inline-block;
+  width: 1px;
+  background: var(--accent);
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
