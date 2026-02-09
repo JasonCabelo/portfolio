@@ -1,7 +1,7 @@
 // src/pages/Projects.jsx
 import projects from "../data/projectsData";
 import ProjectCard from "../components/ProjectCard";
-
+import { motion } from 'framer-motion';
 const Projects = () => {
   return (
     <main style={{ padding: "2rem 1rem", color: "var(--text-color)" }}>
