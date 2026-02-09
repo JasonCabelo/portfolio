@@ -1,5 +1,5 @@
 // src/components/ProjectCard.jsx
-
+import motion from "framer-motion";
 
 const ProjectCard = ({ title, description, image, demoLink, repoLink }) => {
   return (
