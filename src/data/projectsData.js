@@ -19,7 +19,7 @@ const projects = [
     description: "A full-stack inventory management system built with React and Node.js.",
     image: "https://cdn-icons-png.flaticon.com/512/2897/2897785.png", // inventory/box icon
     demoLink: "https://enterprise-inventory-system.vercel.app/",
-    repoLink: "https://github.com/JasonCabelo/inventory-management-system"
+    repoLink: "https://github.com/JasonCabelo/inventory-system"
   },
   
 ];
