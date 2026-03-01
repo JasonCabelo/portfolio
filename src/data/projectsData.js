@@ -25,7 +25,7 @@ const projects = [
    title: "API Troubleshooting Playground",
    description: "A React app for testing and debugging API requests with a proxy server to avoid CORS issues.",
     image: "https://cdn-icons-png.flaticon.com/512/906/906334.png", // API/network icon
-    demoLink: "https://api-troubleshooting-playground.vercel.app/",
+    demoLink: "https://api-troubleshooting-application.vercel.app/",
     repoLink: "https://github.com/JasonCabelo/api-troubleshooting-playground"
   }
   
