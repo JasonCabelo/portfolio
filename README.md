@@ -1,12 +1,84 @@
-# React + Vite
+# Jason Cabelo - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal portfolio website built with React, featuring smooth animations, dark/light mode, and responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dark/Light Mode** - Toggle between themes with smooth transitions
+- **Smooth Animations** - Page transitions and hover effects using Framer Motion
+- **Responsive Design** - Mobile-friendly layout
+- **Project Showcase** - Display of featured projects with live demos and code links
+- **Skills Section** - Technology stack with logos and links to official documentation
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React 19
+- **Routing:** React Router DOM
+- **Animations:** Framer Motion
+- **Build Tool:** Vite
+- **Styling:** CSS with CSS Variables
+
+## 📦 Installation
+
+```
+bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## 🗂️ Project Structure
+
+```
+my-portfolio/
+├── public/           # Static assets
+├── src/
+│   ├── components/   # Reusable React components
+│   ├── data/         # Project data
+│   ├── pages/        # Page components
+│   ├── styles/       # CSS styles
+│   ├── App.jsx       # Main app component
+│   └── main.jsx      # Entry point
+├── index.html        # HTML template
+├── vite.config.js    # Vite configuration
+└── package.json      # Dependencies
+```
+
+## 🎨 Customization
+
+### Adding Projects
+
+Edit `src/data/projectsData.js` to add new projects:
+
+```
+javascript
+{
+  title: "Project Name",
+  description: "Project description",
+  image: "image-url",
+  demoLink: "https://demo.com",
+  repoLink: "https://github.com/repo"
+}
+```
+
+### Modifying Skills
+
+Edit the `skills` array in `src/pages/Home.jsx` to update the technology badges.
+
+## 📄 License
+
+MIT License
+
+## 👤 Author
+
+**Jason Cabelo** - Full-stack Developer
+- GitHub: [JasonCabelo](https://github.com/JasonCabelo)
+- Portfolio: [jasoncabelo-portfolio.vercel.app](https://jasoncabelo-portfolio.vercel.app/)

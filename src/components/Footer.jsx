@@ -17,11 +17,10 @@ const Footer = () => {
       }}
     >
       <h3>Contact Me</h3>
-      <p> Email: jasoncabelo01@gmail.com
-</p>
-      <p>LinkedIn: https://www.linkedin.com/in/jasoncabelo</p>
-
-
+      <p>
+<a href="mailto:jasoncabelo01@gmail.com">Email: jasoncabelo01@gmail.com</a></p>
+      <p> <a href="https://www.linkedin.com/in/jasoncabelo/" target="_blank" rel="noopener noreferrer">
+      LinkedIn: linkedin.com/in/jasoncabelo/</a></p>
         <div style={{ marginTop: '1rem', display: 'flex', gap: '1rem', justifyContent: 'center' }}>
 
       <motion.div
@@ -36,7 +35,7 @@ const Footer = () => {
   whileTap={{ scale: 0.95 }}
   whileHover={{ scale: 1.02 }}
 >
-    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+    <a href="https://drive.google.com/file/d/1vE_cRJXrVSPemRVMrYVWSdzLUpWH0Vlz/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <button className="btn-accent">Resume</button>
     </a>
     </motion.div>

@@ -44,7 +44,7 @@ const Navbar = () => {
         }}
       >
         {/* Logo or title */}
-        <div style={{ fontWeight: 'bold' }}>MyPortfolio</div>
+        <div style={{ fontWeight: 'bold' }}>My Portfolio</div>
 
         {/* Desktop links */}
         {!isMobile && (
