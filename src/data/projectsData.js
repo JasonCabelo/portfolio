@@ -21,6 +21,13 @@ const projects = [
     demoLink: "https://enterprise-inventory-system.vercel.app/",
     repoLink: "https://github.com/JasonCabelo/inventory-system"
   },
+  {
+   title: "API Troubleshooting Playground",
+   description: "A React app for testing and debugging API requests with a proxy server to avoid CORS issues.",
+    image: "https://cdn-icons-png.flaticon.com/512/906/906334.png", // API/network icon
+    demoLink: "https://api-troubleshooting-playground.vercel.app/",
+    repoLink: "https://github.com/JasonCabelo/api-troubleshooting-playground"
+  }
   
 ];
 
